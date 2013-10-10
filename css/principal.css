@@ -1,0 +1,56 @@
+/* 
+    Document   : principal
+    Created on : 10/10/2013, 11:42:58 AM
+    Author     : Ing Balam Palma
+    Description:
+        Maquetación para una plantilla personalizada.
+*/
+body{
+    display:block;
+    font-family: Verdana,Arial,Helvetica, sans-serif;
+    font-size: 12px;
+    /*   margin: 0px;*/
+}
+#container{
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+    /*background: */
+}
+header, footer{
+    height: 265px;
+    width: 1000px;
+    background-color: #ccc;
+    float: left;
+}
+header{}
+
+header nav{
+    height: 93px;
+    width: 100%;
+    background-color: #bfbfbf;
+}
+aside{
+    width: 220px;
+    min-height: 1307px;
+    background-color: #bfbfbf;
+    float: left;
+}
+#content{
+    width: 780px;
+
+    min-height: 1307px;
+    background-color: #DADADA;
+    float: left;
+}
+footer{
+    width: 1000px;
+    height: 66px;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}

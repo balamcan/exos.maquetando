@@ -12,27 +12,156 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/principal.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+            <p class="chromeframe">You are using
+        an <strong>outdated</strong> browser.
+        Please <a href="http://browsehappy.com/">upgrade
+        your browser</a> or 
+        <a href="http://www.google.com/chromeframe/?redirect=true">
+        activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div id="container">
+            <header>
+                <div class="session-nav">
+                    <a href="#">Inicio</a>
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="#">Inicio de Sesi&oacute;n</a>
+                </div>
+                <div class="contact-nav">
+                    <a href="#">Tienda en L&iacute;nea</a>
+                    &nbsp;&nbsp;\&nbsp;&nbsp;
+                    <a href="#">Sobre Nosotros</a>
+                    &nbsp;&nbsp;\&nbsp;&nbsp;
+                    <a href="#">Cont&aacute;ctanos</a>
+                </div>
+                <div class="title-search">
+                    <p class="float-left">Manualidades</p>
+                    <div class="div-search">
+                        <form method="GET" action="#">
+                            <input class="float-left" type="search" name="search_fs" id="search">
+                            <input class="float-left" type="image" name="search_submit_fs" src="" alt="q">
+                        </form>
+                    </div>
+                </div>
+                <nav>
+                    <a href="#">HERRAMIENTAS</a>
+                    <a href="#">TEXTIL</a>
+                    <a href="#">VINIL</a>
+                    <a href="#">TINTAS</a>
+                    <a href="#">IDEAS DE MANUALIDADES</a>
+                    <a href="#">PROMOCIONES</a>
+                    <div class="shop-cart">
+                        0
+                    </div>
+                </nav>    
+            </header>
+            <aside>
+                <div class="session-div">
+                    <form method="POST" action="#">
+                        <h3>INICIO DE SESI&Oacute;N</h3>
+                        <label></label>
+                        <input type="text" name="user_login" >
+                        <input type="password" name="pass_login" >
+                        <input type="submit" value="Inicio">
+                        <a href="" class="new-acount">Crear cuenta</a>
+                        <a href="" class="forgot-pass">Olvid&oacute; su contrase&ntilde;a</a>
+                    </form>
+                </div>
+                <div class="oferts-div">
+                    <h3>OFERTAS</h3>
+                    <div class="ofert">
+                        <img alt="image" src="">
+                        <div class="description">
+                            <div></div>
+                            <div></div>
+                            <div class="price-details">
+                                <strike>$18.50</strike>
+                                <span>$18.50</span>
+                                <span> &rsaquo; <a href="#">details</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="fb-social-div">
+                    <div class="title">
+                        <img src="" alt="session">
+                        <a href="#">Soy Mam&aacute; Dalci</a>
+                        <a href="#" class="like">Me gusta</a>
+                    </div>
+                    <div class="references">
+                        <div>A 133 personas les gusta <a href="#">Soy Mam&aacute; Dalci</a></div>
+                        <a href="" class="fb-acounts"></a>
+                    </div>
+                    <div class="">
+                        <img alt="f" src=""><span>Plug-in social de Facebook</span>
+                    </div>
+                </div>
+
+            </aside>
+
+            <div id="content"> 
+                <section class="main">
+                    <div class="main-img"></div>
+
+                    <article>
+                        <img src="" alt="imagen">
+                        <h4></h4>
+                        <div></div>
+                        <div></div>
+                        <div class="price-details">
+                            <span>$18.50</span>
+                            <span> &rsaquo; <a href="#">details</a></span>
+                        </div>
+                    </article>
+                </section>
+                <section class="new-products">
+                    <h2>PRODUCTOS NUEVOS</h2>
+                    <article>
+                        <h5></h5>
+                        <img src="" alt="img">
+
+                    </article>
+                </section>
+                <section class="main-footer">
+                    <a href="#">Home</a>
+                    <a href="#">Online Store</a>
+                    <a href="#">New</a>
+                    <a href="#">Contacts</a>
+                    <a href="#">About Joomla!</a>
+                    <a href="#">Wrapppers</a>
+                    <a href="#">Reviews</a>
+                    <a href="#">Shopping Cart</a>
+                    <a href="#">Login</a>
+                    <a href="#">Create an Account</a>
+                    <a href="#">Advanced Search</a>
+                    <a href="#">Order History</a>
+                    <a href="#">Shipping & Returns</a>
+                    <a href="#">Contact Us</a>
+                </section>
+            </div>
+            <footer>
+                &COPY; 2013 Print Store. All Rights Reserved. <span><a>Joomla!</a></span> is Free Software released under the <span><a href="#">GNU/GPL License</a></span>
+            </footer>
+        </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+        <!--
+                <script>
+                    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+                    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+                    g.src='//www.google-analytics.com/ga.js';
+                    s.parentNode.insertBefore(g,s)}(document,'script'));
+                </script>
+        -->
     </body>
 </html>
