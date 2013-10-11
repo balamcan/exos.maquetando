@@ -28,21 +28,23 @@
 
         <div id="container">
             <header>
-                <div class="session-nav">
-                    <a href="#">Inicio</a>
-                    &nbsp;&nbsp;|&nbsp;&nbsp;
-                    <a href="#">Inicio de Sesi&oacute;n</a>
-                </div>
-                <div class="contact-nav">
-                    <a href="#">Tienda en L&iacute;nea</a>
-                    &nbsp;&nbsp;\&nbsp;&nbsp;
-                    <a href="#">Sobre Nosotros</a>
-                    &nbsp;&nbsp;\&nbsp;&nbsp;
-                    <a href="#">Cont&aacute;ctanos</a>
+                <div class="top">
+                    <div class="session-nav float-left">
+                        <a href="#">Inicio</a>
+                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                        <a href="#">Inicio de Sesi&oacute;n</a>
+                    </div>
+                    <div class="contact-nav float-right">
+                        <a href="#">Tienda en L&iacute;nea</a>
+                        &nbsp;&nbsp;\&nbsp;&nbsp;
+                        <a href="#">Sobre Nosotros</a>
+                        &nbsp;&nbsp;\&nbsp;&nbsp;
+                        <a href="#">Cont&aacute;ctanos</a>
+                    </div>
                 </div>
                 <div class="title-search">
                     <p class="float-left">Manualidades</p>
-                    <div class="div-search">
+                    <div class="div-search float-right">
                         <form method="GET" action="#">
                             <input class="float-left" type="search" name="search_fs" id="search">
                             <input class="float-left" type="image" name="search_submit_fs" src="" alt="q">
@@ -63,44 +65,88 @@
             </header>
             <aside>
                 <div class="session-div">
+                    <h3>INICIO DE SESI&Oacute;N</h3>
                     <form method="POST" action="#">
-                        <h3>INICIO DE SESI&Oacute;N</h3>
-                        <label></label>
-                        <input type="text" name="user_login" >
-                        <input type="password" name="pass_login" >
+                        <label for="user_login">Usuario</label>
+                        <input id="user_login" type="text" name="user_login_fs" >
+                        <label for="pass_login">Contrase&ntilde;a</label>
+                        <input id="pass_login" type="password" name="pass_login_fs" >
+                        <div class="remeber-class">
+                            <input type="checkbox" name="remember_pass_fs" id="remember_pass">
+                            <label for="remember_pass"></label>
+                        </div>
                         <input type="submit" value="Inicio">
-                        <a href="" class="new-acount">Crear cuenta</a>
-                        <a href="" class="forgot-pass">Olvid&oacute; su contrase&ntilde;a</a>
                     </form>
+                    <input type="button" class="new-acount" value="Crear cuenta">
+                    <div class="forgot-pass">
+                        <a href="#" >Olvid&oacute; su contrase&ntilde;a</a>
+                    </div>
                 </div>
                 <div class="oferts-div">
                     <h3>OFERTAS</h3>
-                    <div class="ofert">
-                        <img alt="image" src="">
-                        <div class="description">
-                            <div></div>
-                            <div></div>
-                            <div class="price-details">
-                                <strike>$18.50</strike>
-                                <span>$18.50</span>
-                                <span> &rsaquo; <a href="#">details</a></span>
-                            </div>
+                    <div class="item">
+                        <div class="img"></div>
+                        <!--                        <img alt="image" src="">-->
+                        <div class="item-name">LERTARS JEUYTRE</div>
+                        <div class="item-desc">KYASEDA MAYTE RAES</div>
+                        <div class="price-details">
+                            <strike>$18.50</strike>
+                            <span>$18.50</span>
+                            <span> &rsaquo; <a href="#">details</a></span>
                         </div>
                     </div>
                 </div>
 
                 <div class="fb-social-div">
-                    <div class="title">
-                        <img src="" alt="session">
-                        <a href="#">Soy Mam&aacute; Dalci</a>
-                        <a href="#" class="like">Me gusta</a>
-                    </div>
-                    <div class="references">
-                        <div>A 133 personas les gusta <a href="#">Soy Mam&aacute; Dalci</a></div>
-                        <a href="" class="fb-acounts"></a>
-                    </div>
-                    <div class="">
-                        <img alt="f" src=""><span>Plug-in social de Facebook</span>
+                    <div>
+                        <div class="title">
+                            <!--img src="" class="user" alt="session"-->
+                            <div class="user" ></div>
+                            <div>
+                                <a href="#" class="owner">Soy Mam&aacute; Dalci</a>
+                                <a href="#" class="like"><div><span>Me gusta</span></div></a>
+                            </div>
+                        </div>
+                        <div class="references">
+                            <div>A 133 personas les gusta <a href="#">Soy Mam&aacute; Dalci</a></div>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <a href="" ><div></div></a>
+                            <div class="clear-float"></div>
+                        </div>
+                        <div class="fb-footer">
+                            <img alt="f" src="">
+                            <span>Plug-in social de Facebook</span>
+                        </div>
                     </div>
                 </div>
 
@@ -110,15 +156,40 @@
                 <section class="main">
                     <div class="main-img"></div>
 
+
                     <article>
-                        <img src="" alt="imagen">
-                        <h4></h4>
-                        <div></div>
-                        <div></div>
-                        <div class="price-details">
-                            <span>$18.50</span>
-                            <span> &rsaquo; <a href="#">details</a></span>
-                        </div>
+                        <!img src="" alt="imagen">
+                        <div class="img"></div>
+                        <h4>articulo asdfj khafdskjfas dlkjfa lk loremp ipsum</h4>
+                        <div>descripcion</div>
+
+                    </article>
+                    <article>
+                        <!img src="" alt="imagen">
+                        <div class="img"></div>
+                        <h4>Manualidades con botones</h4>
+                        <div>Uno de los materiales que 
+                            siempre tenemos en casa son los 
+                            botones, ya sea porque somos
+                            fanáticas de la costura o
+                            simplemente por que guaramos
+                            todos aqueñños botoncitos que 
+                            nuestras prendas de ropa...</div>
+
+                    </article>
+                    <article>
+                        <!img src="" alt="imagen">
+                        <div class="img"></div>
+                        <h4>articulo asdfj khafdskjfas dlkjfa lk loremp ipsum</h4>
+                        <div>descripcion</div>
+
+                    </article>
+                    <article>
+                        <!img src="" alt="imagen">
+                        <div class="img"></div>
+                        <h4>articulo asdfj khafdskjfas dlkjfa lk loremp ipsum</h4>
+                        <div>descripcion</div>
+
                     </article>
                 </section>
                 <section class="new-products">
@@ -126,7 +197,10 @@
                     <article>
                         <h5></h5>
                         <img src="" alt="img">
-
+                        <div class="price-details">
+                            <span>$18.50</span>
+                            <span> &rsaquo; <a href="#">details</a></span>
+                        </div>
                     </article>
                 </section>
                 <section class="main-footer">
@@ -147,7 +221,7 @@
                 </section>
             </div>
             <footer>
-                &COPY; 2013 Print Store. All Rights Reserved. <span><a>Joomla!</a></span> is Free Software released under the <span><a href="#">GNU/GPL License</a></span>
+                &COPY; 2013 Print Store. All Rights Reserved. <a href="">Joomla!</a> is Free Software released under the <a href="#">GNU/GPL License</a>
             </footer>
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
