@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="-28.885897"
-     inkscape:cy="715.94187"
+     inkscape:zoom="7.919596"
+     inkscape:cx="-171.62516"
+     inkscape:cy="652.10786"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1366"
      inkscape:window-height="706"
@@ -52,8 +52,7 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <image
        y="345.40042"
        x="-417.03317"
@@ -1137,8 +1136,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="medidas duras"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        id="rect3191"
        width="184.70413"
@@ -1505,7 +1503,7 @@
        id="rect4000"
        style="fill:#999999;fill-opacity:1;stroke:none" />
     <rect
-       style="fill:#b86a6b;fill-opacity:1;stroke:none"
+       style="fill:#e17a8d;fill-opacity:1;stroke:none"
        id="rect4052"
        width="75.714287"
        height="32.142857"
@@ -1539,6 +1537,38 @@
        height="26.428572"
        x="596.07141"
        y="1462.005" />
+    <rect
+       style="fill:none;stroke:#fe5052;stroke-opacity:1"
+       id="rect4192"
+       width="66.164993"
+       height="20.708128"
+       x="-151.01781"
+       y="1461.979" />
+    <rect
+       style="fill:none;stroke:none"
+       id="rect4194"
+       width="59.480114"
+       height="23.587257"
+       x="640.88495"
+       y="1960.9258"
+       inkscape:export-filename="C:\Users\Usuario\Desktop\rect4194.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100" />
+    <rect
+       style="fill:none;stroke:#fe5052;stroke-width:0.92619163;stroke-opacity:1"
+       id="rect4196"
+       width="38.002129"
+       height="25.153032"
+       x="-786.10809"
+       y="1959.324"
+       transform="scale(-1,1)" />
+    <rect
+       style="fill:#e17a8d;fill-opacity:1;stroke:none"
+       id="rect4200"
+       width="18.75"
+       height="15"
+       x="-169.82143"
+       y="1415.5764" />
   </g>
   <g
      inkscape:groupmode="layer"
