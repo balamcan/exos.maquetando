@@ -10,6 +10,10 @@ body{
     font-family: Verdana,Arial,Helvetica, sans-serif;
     font-size: 12px;
     /*   margin: 0px;*/
+    background-image: url("../img/main-background.png");
+    background-repeat: repeat-x;
+/*width: 100%;
+height: 100%;*/
 }
 #container{
     display: block;
@@ -21,7 +25,7 @@ body{
 header{
     height: 280px;
     width: 1000px;
-    background-color: #ccc;
+    /*background-color: #ccc;*/
     float: left;
 }
 
@@ -29,7 +33,15 @@ header nav{
     float: left;
     height: 93px;
     width: 1000px;
+    padding-bottom: 15px;
     background-color: #fff;
+    background-repeat: no-repeat;
+background-image: url(../img/shadow-nav.png);
+background-position:  bottom center;
+border-top:solid 1px #d4d2d3;
+border-left:solid 1px #d4d2d3;
+border-right:solid 1px #d4d2d3;
+background-origin:border-box;
     /*15 de imagen de sombreo*/
 }
 aside{
@@ -43,7 +55,7 @@ aside{
     padding-left: 10px;
     padding-top: 15px;
     min-height: 1292px;
-    background-color: #DADADA;
+    background-color: #fff;
     float: left;
 }
 footer{
@@ -54,7 +66,7 @@ footer{
     padding-top: 30px;
     padding-left: 35px;
     color:#b0b0b0;
-    
+
 }
 footer a{
     color:#000;
@@ -70,8 +82,9 @@ header .top{
     padding-top: 30px;
     width: 1000px;
     /*background-color: #105cb6;*/
-    font-size: 8px;
+    font-size: 10px;
     margin-bottom: 7px;
+    font-family: Arial;
 }
 header .top .session-nav,header .top .session-nav a{
     color: #717171;
@@ -96,6 +109,7 @@ header .title-search .div-search{
 header .title-search .div-search input[type="search"]{
     width: 270px;
     height: 31px;
+    
 }
 header a{
     text-decoration: none;
@@ -124,11 +138,12 @@ header nav .shop-cart{
     text-align: center;
     float: right;
     background-color: #000;
-    width: 58px;
-    height: 58px;
+    width: 50px;
+    height: 50px;
+    padding: 4px;
     border-radius: 40px;
     margin: 20px 10px;
-
+    cursor: pointer;
 }
 aside > div{
     margin-top: 17px;
@@ -207,8 +222,8 @@ aside .oferts-div .item > div{
     margin: 2px 0;
 }
 aside .oferts-div .item .img{
-    width: 133px;
-    height: 74px;
+    width: 132px;
+    height: 73px;
     background-color: #000;
     display: inline-block;
     -moz-box-shadow: 4px 2px 5px 2px #8c8c8c;
@@ -257,19 +272,20 @@ aside .oferts-div .item{
 }
 aside .fb-social-div {
     background-color: #fff;
-}
-aside .fb-social-div > div {
-    margin: 5px auto; 
-    border: 2px solid #d4d2d3;
-    background-color: #fff;
-    width: 210px;
-    border-radius: 5px; 
     
 }
+aside .fb-social-div > div {
+    margin: 15px auto; 
+    border: 2px solid #d4d2d3;
+    background-color: #fff;
+    width: 214px;
+    border-radius: 5px; 
+    height: auto;
+}
 aside .fb-social-div .title{
-    width: 210px;
+    width: 214px;
     height: 62px;
-   
+
 }
 aside .fb-social-div .user{
     width: 50px;
@@ -292,15 +308,24 @@ aside .fb-social-div .title .owner{
     color:#3B5998;
     font-weight: bold;
     font-size: 13px;
+    margin-bottom: 5px;
 }
 aside .fb-social-div .title .owner:hover{
-text-decoration: underline;
+    text-decoration: underline;
 }
 aside .fb-social-div .title .like{
-     
+
+}
+aside .fb-social-div .divider{
+    width: 200px;
+    height: 1px;
+    background-color: #D8DFEA;
+    margin: 0 auto;
 }
 aside .fb-social-div .references {
-    border-top: 1px solid #D8DFEA;
+
+    padding: 10px;
+    width: 214px;
 }
 aside .fb-social-div .references > div{
     font-family:'Helvetica Neue';
@@ -310,34 +335,34 @@ aside .fb-social-div .references > div{
 aside .fb-social-div .references > div a{
     text-decoration: none;
 }
-aside .fb-social-div .references > a div{
-    width: 50px;
-    height: 50px;
+aside .fb-social-div .references > a .fb-img{
+    width: 45px;
+    height: 45px;
     background-color: #000;
     display:  block;
     float: left;
-    margin: 1px;
+    margin: 3px 3px 0 0;
 }
 
 .clear-float{
     clear: both;
 }
 aside .fb-social-div .fb-footer{
-    border-top: 1px solid #D8DFEA;
+    /*border-top: 1px solid #D8DFEA;*/
     margin: 3px 6px;
 }
 aside .fb-social-div .fb-footer span{
-    
+
     font-family:'Helvetica Neue';
     font-size: 11px;
 }
 #content .main{
-     margin-left: 10px;
+    margin-left: 10px;
 }
 #content .main-img{
- width: 756px;
- height: 347px;
- background-color: #ccc;
+    width: 759px;
+    height: 347px;
+    background-color: #ccc;
 
 }
 #content .main article {
@@ -351,14 +376,201 @@ aside .fb-social-div .fb-footer span{
 #content .main article .img{
     background-color: #000;
     width: 161px;
-    height: 163px;
+    height: 160px;
 }
 #content .main article h4{
-margin: 15px 0;    
+    margin: 15px 0;    
+}
+#content .main article div{
+    font-family: 'Helvetica Neue';
 }
 #content .main article div:last-child{
-font-size: 10px;
+    font-size: 10px;
 }
 #content .new-products h2{
-    /*height: 58px;*/
+    height: 34px;
+    padding-top: 22px;
+    font-size: 10px;
+    display: inline-block;
+    width: 730px;
+    margin-left: 15px;
+    padding-left: 25px;
+    background-color: #f2f2f2;
+    margin-bottom: 26px; 
+
+}
+#content .new-products article{
+    float: left;
+    display:block;
+    width: 160px;
+    padding: 0px 40px 0 55px;
+    height: 293px;
+    border-left: 1px solid #e4e4e4;
+    background-color: #fff;
+}
+#content .new-products article:nth-child(2){
+    border-left: none;
+}
+#content .new-products article h6{
+    margin: 20px 0;
+    text-align: right;
+    color:#a7a7a7;
+}
+#content .new-products article .prev{
+    width: 157px;
+    height: 88px;
+    background-color: #000;
+    display: inline-block;
+    -moz-box-shadow: 4px 2px 5px 2px #8c8c8c;
+    -webkit-box-shadow: 4px 2px 5px 2px #8c8c8c;
+    box-shadow: 4px 2px 5px 2px #8c8c8c;
+    filter: progid:DXImageTransform.Microsoft.Shadow(strength = 4, direction = 112.5, color = '#8c8c8c');
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(strength = 4, Direction = 112.5, Color = '#8c8c8c')";
+    /*Shadows look very different in IE (Only cardinal directions supported)*/
+    /*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+    /*Element should have a background-color*/
+    /*All filters must be placed together*/
+    /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+    /*IE 7 AND 8 DO NOT SUPPORT SPREAD PROPERTY OF SHADOWS*/
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#content .new-products article .item-name{
+    margin-top: 10px;
+    font-size: 10px;
+    color: #e17a8d;
+    font-family: 'Verdana';
+}
+#content .new-products article .item-desc{
+    margin-top: 10px;
+    font-size: 8px;
+    color: #979797;
+}
+#content .new-products article .price-details{
+    margin-top: 23px;
+}
+#content .new-products article .price-details span:last-child ,#content .new-products article .price-details a{
+    margin-top: 23px;
+    color: #959595;
+}
+#content .new-products article .price-details span:first-child{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 23px;
+    color: #5a5a5a;
+}
+#content .main-footer{
+    padding: 32px 20px 36px 26px;
+    background-color: #f6f6f6;
+    width: 724px;
+    height: 88px;
+    float: left;
+    border-top:5px solid #efefef; 
+    margin-top: 20px;
+    display: block;
+}
+#content .main-footer > div{
+    float: left;
+    width: 181px;
+}
+#content .main-footer a{
+    float: left;
+    width: 181px;
+    height: 12px;
+    font-size: 10px;
+    margin: 6px 0;
+    display:inline-block;
+    text-decoration: none;
+    color:#9c9c9c;
+}
+#content .main-footer a:hover{
+    text-decoration: underline;
+}
+
+#top-ref{
+        background-color: #2C2C2C;
+        border-radius: 30px;
+        bottom: 55px;
+        display: block;
+        height: 21px;
+        width: 23px;
+        padding: 11px 10px;
+        /*margin-left: -300px;*/
+        position: fixed;
+        right: 55px;
+
+        color: #fff;
+        text-decoration: none;
+        font-weight: bolder;
+        font-style: italic;
+        font-size: 10px;
+    }
+@media all and (max-width: 1200px) {
+    #top-ref{
+        display: none;
+    }
+}
+.lens{
+    margin: 10px 2px;
+}
+#search{
+    background:none ;
+    border: none ;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 3px;
+}
+
+.img {
+    display: block;
+}
+.sx_like_fav {
+    background-position: 0 0;
+}
+.sp_like {
+    background-image: url("../img/tbhIfdAHjXE.png");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+}
+.pluginButton {
+    background: none repeat scroll 0 0 #ECEEF5;
+    border: 1px solid #CAD4E7;
+    border-radius: 3px 3px 3px 3px;
+    color: #3B5998;
+    cursor: pointer;
+    padding: 2px 6px 4px;
+    white-space: nowrap;
+    height: 20px;
+    width: 66px;
+}
+.pluginButton button {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    margin: -1px;
+    padding: 0;
+}
+.sx_like_thumb {
+    background-position: 0 -60px;
+}
+.pluginButtonIcon {
+    margin-right: 3px;
+    position: relative;
+    top: 3px;
+}
+.accessible_elem {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+}
+.icon-style{
+    height: 26px;
+    margin-right: 40px;
 }
